@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TP 6 - Composant Android</string>
+    <string name="header_title">TP N° 6 : WorkManager</string>
+    <string name="header_subtitle">Module : Composant Android (M205)</string>
+
+    <string name="ex1_title">Exercice 1 : LogWorker</string>
+    <string name="ex1_desc">Une OneTimeWorkRequest est lancée automatiquement au démarrage de l\'application pour afficher un message dans Logcat.</string>
+    <string name="ex1_btn">Relancer LogWorker</string>
+    <string name="ex1_status_ready">Statut : Prêt (vérifiez Logcat avec le tag \'LogWorker\')</string>
+    <string name="ex1_status_running">Statut LogWorker : %1$s</string>
+    <string name="ex1_status_finished">Statut LogWorker : Terminé (%1$s)</string>
+
+    <string name="ex2_title">Exercice 2 : SaveDataWorker</string>
+    <string name="ex2_desc">Simule une sauvegarde de données en arrière-plan (3s), suit le statut dans Logcat et affiche une notification à la fin.</string>
+    <string name="ex2_btn">Sauvegarder les données</string>
+    <string name="ex2_status_idle">Statut : En attente</string>
+    <string name="ex2_status_starting">Statut : Lancement en cours…</string>
+    <string name="ex2_status_enqueued">Statut : En attente d\'exécution (ENQUEUED)</string>
+    <string name="ex2_status_running">Statut : Sauvegarde en cours… (RUNNING)</string>
+    <string name="ex2_status_succeeded">Statut : Sauvegarde terminée avec succès ! (SUCCEEDED)</string>
+    <string name="ex2_status_failed">Statut : Échec de la sauvegarde (FAILED)</string>
+    <string name="ex2_status_cancelled">Statut : Sauvegarde annulée (CANCELLED)</string>
+    <string name="ex2_status_blocked">Statut : Sauvegarde bloquée (BLOCKED)</string>
+    <string name="ex3_calculating">Calcul en cours en arrière-plan…</string>
+    <string name="ex3_error">Erreur lors de l\'exécution du calcul.</string>
+    <string name="save_success_notification">Données sauvegardées avec succès !</string>
+
+    <string name="ex3_title">Exercice 3 : CalculationWorker</string>
+    <string name="ex3_desc">Effectue la somme des nombres de 1 à 100 en arrière-plan, renvoie le résultat dans outputData et l\'affiche dans un Toast.</string>
+    <string name="ex3_btn">Calculer la somme (1 à 100)</string>
+    <string name="ex3_result_idle">Résultat : Aucun calcul effectué</string>
+    <string name="ex3_result_format">Résultat : Somme de 1 à 100 = %1$d</string>
+    <string name="toast_calculation_result">Résultat du calcul (1 à 100) : %1$d</string>
+</resources>
